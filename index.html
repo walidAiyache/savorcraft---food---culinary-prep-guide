@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SavorCraft - Food & Culinary Prep Guide</title>
+    <meta name="description" content="Comprehensive culinary platform featuring chef-tested recipes, step-by-step interactive preparation mode, cooking timers, ingredient scaling, knife skills & prep guides, meal planner, and pantry recipe finder." />
+    <meta property="og:title" content="SavorCraft - Food & Culinary Prep Guide" />
+    <meta property="og:description" content="Comprehensive culinary platform featuring chef-tested recipes, step-by-step interactive preparation mode, cooking timers, ingredient scaling, knife skills & prep guides, meal planner, and pantry recipe finder." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <script>
+      (function() {
+        try {
+          var nativeFetch = window.fetch ? window.fetch.bind(window) : null;
+          var activeFetch = nativeFetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return activeFetch;
+            },
+            set: function(fn) {
+              activeFetch = fn;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {
+          // Fallback if window already sealed
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-[#faf8f5] text-[#2c2825] antialiased selection:bg-[#c85a32]/20 selection:text-[#943614]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

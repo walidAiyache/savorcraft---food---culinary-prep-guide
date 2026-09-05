@@ -1,0 +1,6 @@
+{
+  "name": "SavorCraft - Food & Culinary Prep Guide",
+  "description": "Comprehensive culinary platform featuring chef-tested recipes, step-by-step interactive preparation mode, cooking timers, ingredient scaling, knife skills & prep guides, meal planner, and pantry recipe finder.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

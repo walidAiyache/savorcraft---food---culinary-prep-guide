@@ -1,0 +1,11 @@
+[
+  {
+    "id": "3eebc13a-d4b4-4e9d-898b-42eb9480ed23",
+    "name": "Administrator",
+    "email": "walidyach788@gmail.com",
+    "passwordHash": "59159dc6c15a07fc2538b05e00a891c2:bf178f71d61a6119df3c709b2c19b49c657facf33ff55292ced355227353759e13b2e5e58f2d63ff132193d0a0ae3df83f9055f81a9a14547286ade1e3a6e9d0",
+    "role": "admin",
+    "active": true,
+    "createdAt": "2026-09-02T14:14:14.113Z"
+  }
+]
