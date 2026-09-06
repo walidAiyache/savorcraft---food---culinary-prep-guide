@@ -307,3 +307,4 @@ export const AdminLogin: React.FC<AdminLoginProps> = ({
     </div>
   );
 };
+export const GoogleAdSlot;
